@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.continer{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav{
+    background-color: #3b5998;
+}
+nav .logo h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: #ffff;
+    display: inline-block;
+    padding-top: 20px ;
+    padding-bottom: 20px; 
+}
+nav .logo{
+    width: 55%;
+}
+.nav_last{
+    width: 45%;
+    justify-content: space-between;
+}
+
+a{
+    background-color: #5775ab;
+    text-decoration: none;
+     margin:20px ;
+     padding: 20px;
+    text-align: center;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 13px;
+}
+.nav_item{
+    font-size:15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.nav_item_2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+ #jowel {
+    background-color: #e2e5ef;
+}
+#jowel .network{
+    width: 50%;
+}
+#jowel .network p{
+    color:#283351;
+    padding-top: 50px;
+    font-size: 23px;
+    font-weight: 800;
+    padding-bottom: 50px;
+    width: 90%;
+}
+ #jowel .network img{
+    width: 535px;
+}
+#jowel .from_item{
+    width: 50%;
+    color: #283351;
+}
+#jowel .math #email {
+    padding-left: 10px;
+}
+#jowel  .sign{
+    color: #283351;
+}
+#jowel  .sign h1{
+    padding: 50px 0px 20px 0px;
+    font-size: 30px;
+}
+#jowel  .sign p{
+    padding-bottom: 30px;
+}
+#jowel  .from{
+    margin-left: 40px;
+
+    line-height: 57px;
+}
+#jowel  .from input{
+    size: 20px;
+}
+#jowel  .from .ra{
+    margin-left: 27px;
+    height: 40px;
+    width: 60%;
+}
+#jowel  .from .rs{
+    margin-left: 26px;
+    height: 40px;
+    width: 60%;
+}
+#jowel  .from .jow{
+    margin-left: 75px;
+    height: 40px;
+    width: 60%;
+}
+#jowel  .from .jo{
+    margin-left: 45px;
+    height: 40px;
+    width: 60%;
+}
+#jowel  .from .ty{
+    height: 40px;
+    width: 60%;
+}
+
+.from input .ra{
+    size: 50px;
+    height: 40px;
+    width: 60%;
+}
+#jowel  .ancor{
+/* text-align: center; */
+margin-left: 20%;
+}
+a{
+    display: inline-block;
+    position: relative;
+    color: #19aae6;
+    background-color: #ffffff;
+    font-family: inherit;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px 20px;
+    margin: 20px;
+    border: 2px solid #19aae6;
+    border-radius: 8px;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+a::before {
+    content: "";
+    position: absolute;
+    background-color: #19aae6;
+    height: 150px;
+    width: 200px;
+    border-radius: 50px;
+    z-index: -1;
+}
+a:hover {
+    color: #fff;
+}
+
+a::before {
+    top: 100%;
+    left: 100%;
+    transition: 0.7s;
+}
+
+a:hover::before {
+    top: -30px;
+    left: -30px;
+}
+
+a:active::before {
+    background: #3a0ca3;
+    transition: 0s;
+}
